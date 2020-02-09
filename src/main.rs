@@ -15,9 +15,6 @@ fn main() -> std::io::Result<()> {
         let f_name = entry.file_name().to_string_lossy();
         if f_name.ends_with(".env") {
             let new_path = Path::new(entry.path());
-            println!("{}", new_path.display());
-
-            println!("{:?}", entry.path());
             fs::copy(
                 entry.path(),
                 format!(
