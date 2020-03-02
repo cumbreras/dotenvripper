@@ -3,6 +3,8 @@ name = "dotenvripper"
 version = "0.1.0"
 authors = ["Edgar Cumbreras <edgarcumbrerastirado@gmail.com>"]
 edition = "2018"
+description = "Crate to iteratively backup all your dotenv files from a dir containing multiple projects."
+license = "MIT"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
